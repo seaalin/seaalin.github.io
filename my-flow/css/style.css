@@ -48,3 +48,8 @@ td {
 caption {
     caption-side: bottom;
 }
+
+img {
+    width: 50%;
+    height: 50%;
+}
