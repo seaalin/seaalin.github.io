@@ -8,7 +8,6 @@
     padding-top: 10px;
     padding-bottom: 5px;
 }
-
 .nav {
     list-style-type: none;
     background-color: blanchedalmond;
@@ -16,10 +15,11 @@
     margin-right: 50px;
     padding: 0;
     overflow: hidden;
+    text-align: center;
 }
 
 ul.nav li {
-    float: left
+    display: inline-block
 }
 
 ul.nav li a {
