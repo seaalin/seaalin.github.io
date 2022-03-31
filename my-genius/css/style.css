@@ -46,3 +46,9 @@ ul.nav a:hover {
 .background-color {
     background-color: beige;
 }
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
