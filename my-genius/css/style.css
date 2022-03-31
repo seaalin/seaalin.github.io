@@ -7,7 +7,6 @@
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 5px;
-    background-color: aliceblue;
 }
 
 .nav {
@@ -42,4 +41,8 @@ ul.nav a:hover {
 
 .center {
     text-align: center;
+}
+
+.background-color {
+    background-color: beige;
 }
