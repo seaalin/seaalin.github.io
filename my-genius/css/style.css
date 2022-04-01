@@ -31,7 +31,7 @@ ul.nav li a {
 }
 
 ul.nav a:hover {
-    background-color: gray;
+    background-color: grey;
     color: aquamarine;
 }
 
