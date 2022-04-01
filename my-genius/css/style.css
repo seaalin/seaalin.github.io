@@ -7,6 +7,7 @@
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 .nav {
@@ -37,10 +38,6 @@ ul.nav a:hover {
 
 .active {
     background-color: aquamarine;
-}
-
-.center {
-    text-align: center;
 }
 
 .background-color {
