@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Messaround</title>
+</head>
+
+<body>
+    <h1>Let's learn Javascript</h1>
+    <h2>How do we do onclick events and alerts?</h2>
+    <a href="https://www.eastsideprep.org" target="_blank" onclick="alert('Warning! You are navigating away from my page.')">Go to the school website</a>
+    <br>
+    <br>
+    <a href="https://www.youtube.com" target="_blank" onclick="alert('Are you sure you want to leave this site?')">Watch some Youtube?</a>
+
+    <h2>How do I change HTML content with javascript?</h2>
+    <h2>What's my secret identity?</h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='I am Batman';document.getElementById('secret').style.display='block'">Reveal!</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Conceal</button>
+
+    <h2>2 Truths and a Lie about me</h2>
+    <ol>
+        <li>I like chocolate</li>
+        <li>I like cake</li>
+        <li>I have never broken a bone</li>
+    </ol>
+    <p id="truth"></p>
+    <button onclick="document.getElementById('truth').innerHTML='Truth!';document.getElementById('truth').style.display='block'">Reveal!</button>
+    <button onclick="document.getElementById('truth').style.display='none'">Conceal</button>
+
+    <h2>How do we change an image with Javascript?</h2>
+    <img src="images/pic_bulboff.gif" alt="Lightbulb off" id="light-off">
+    <img src="images/pic_bulbon.gif" alt="Lightbulb on" id="light-on">
+    <button onclick="document.getElementById('light-off').src='images/pic_bulbon.gif'">Turn on light</button>
+    <button onclick="document.getElementById('light-on').src='images/pic_bulboff.gif'">Turn off light</button>
+
+    <h2>How do we change CSS styles with functions?</h2>
+    <p id="alice">Hi I am Alice</p>
+    <button onclick="shrinkAlice()">Cake: Eat me</button>
+    <button onclick="growAlice()">Potion: Drink me</button>
+
+    <script>
+        function shrinkAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color = 'blue';
+            aliceParagraph.style.fontSize = '10px';
+        }
+
+        function growAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color = 'red';
+            aliceParagraph.style.fontSize = '30px';
+        }
+    </script>
+
+</body>
+
+</html>
