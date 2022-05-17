@@ -28,15 +28,15 @@
         <li>I like cake</li>
         <li>I have never broken a bone</li>
     </ol>
+    <p id="truth">The truth is, I don't really like chocolate</p>
     <p id="truth"></p>
-    <button onclick="document.getElementById('truth').innerHTML='Truth!';document.getElementById('truth').style.display='block'">Reveal!</button>
-    <button onclick="document.getElementById('truth').style.display='none'">Conceal</button>
+    <button onclick="document.getElementById('truth').innerHTML='Me no like chocolate';document.getElementById('truth').style.display='none'">Show</button>
+    <button onclick="document.getElementById('truth').style.display='block'">Hide</button>
 
     <h2>How do we change an image with Javascript?</h2>
     <img src="images/pic_bulboff.gif" alt="Lightbulb off" id="light-off">
-    <img src="images/pic_bulbon.gif" alt="Lightbulb on" id="light-on">
     <button onclick="document.getElementById('light-off').src='images/pic_bulbon.gif'">Turn on light</button>
-    <button onclick="document.getElementById('light-on').src='images/pic_bulboff.gif'">Turn off light</button>
+    <button onclick="document.getElementById('light-off').src='images/pic_bulboff.gif'">Turn off light</button>
 
     <h2>How do we change CSS styles with functions?</h2>
     <p id="alice">Hi I am Alice</p>
@@ -56,6 +56,24 @@
             aliceParagraph.style.fontSize = '30px';
         }
     </script>
+
+    <h2>Let's change the background color</h2>
+    <button onclick="background_blue()">Change background to blue!</button>
+
+    <script>
+        function background_blue() {
+            document.body.style.backgroundColor = "blue";
+        }
+    </script>
+
+    <button onclick="background_red()">Change background to red!</button>
+
+    <script>
+        function background_red() {
+            document.body.style.backgroundColor = "red";
+        }
+    </script>
+
 
 </body>
 
