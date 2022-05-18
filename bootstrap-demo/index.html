@@ -16,6 +16,26 @@
 
 <body class="bg-dark">
     <div class="container-fluid bg-dark text-white">
+        <!-- A grey horizontal navbar that becomes vertical on small screens -->
+        <nav class="navbar navbar-expand-sm bg-light">
+
+            <div class="container-fluid">
+                <!-- Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 3</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
         <div id="demo" class="carousel slide" data-bs-ride>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -32,22 +52,27 @@
             <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
         </div>
 
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%;">Loading...1%</div>
+        </div>
+
         <h1>This is my first bootstrap page</h1>
         <p>This is in container-fluid which takes up the whole screen's width</p>
         <h2>Bootstrap grids</h2>
         <p>Bootstrap grids have 12 responsive columns and screen sizes sm/md/lg/xl/xxl</p>
         <p>Column spans should always add up to 12</p>
+        <br>
         <div class="row">
             <div class="col-md-3">
-                <h2>Bootstrap is for html</h2>
+                <h2>Bootstrap is for HTML</h2>
                 <p>lkalsncqiuoeijdklcmxvxbkjnoerlkqqet</p>
             </div>
-            <div class="col-md-6">
-                <h2>Bootstrap is for cCSS</h2>
+            <div class="col-md-6" style="text-align: center;">
+                <h2>Bootstrap is for CSS</h2>
                 <p>alkskd,mz,m,xvlakjdflkjlkwjlerkkkkkkkkkk</p>
             </div>
-            <div class="col-mb-3">
-                Bootstrap is for JS
+            <div class="col-md-3">
+                <h2>Bootstrp is for JS</h2>
                 <p>asldkjflakjsd</p>
             </div>
         </div>
